@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto texto</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    
+</head>
+<body>
+    <main>
+        <div class="meio">
+            <img class="mangle" src="./img/mangle.png">
+
+            <!--texto-->
+            <h1 class="frase"><i>Sobreviva mais uma noite</i></h1>
+        </div>
+        <div class="meio_embaixo">
+            <button onclick="mudar_cor('pink')" class="pink">Mudar pra rosa</button>
+            <button onclick="mudar_cor('hotpink')" class="hot_pink">Mudar pra rosa choque</button>
+            <button onclick="mudar_cor('purple')" class="purple">Mudar pra roxo</button>
+            <button onclick="mudar_cor('rgb(81, 127, 211)')" class="blue">Mudar pra azul</button>
+            <button onclick="mudar_cor('black')" class="black">Mudar pra preto</button>
+            
+        </div>
+    </main>
+</body>
+<script>
+    texto = document.querySelector(".frase");
+
+    function mudar_cor(color){
+        texto.style.color = `${color}`;
+    }
+</script>
+</html>

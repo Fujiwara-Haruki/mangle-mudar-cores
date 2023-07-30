@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.frase{
+    font-size: 30px;
+}
+
+.meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.meio_embaixo{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px transparent;
+    height: 50px
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid #333;
+}
+
+.pink{
+    background-color: pink;
+    color:rgb(126, 47, 86)
+}
+
+
+.hot_pink{
+    background-color: hotpink;
+    color: white;
+}
+
+.purple{
+    background-color: purple;
+    color:white;
+}
+
+.blue{
+    background-color: rgb(81, 127, 211);
+    color:white;
+}
+
+.black{
+    background-color: black;
+    color:white;
+}
+
+/*imagem*/
+.mangle{
+    height: 300px;
+    width: auto;
+}
